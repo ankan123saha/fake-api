@@ -2,10 +2,10 @@
   "name": "fake-server",
   "version": "1.0.0",
   "description": "json server fake api",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "json:server": "json-server --watch db.json",
-    "start":"json-server --watch db.json"
+    "json:server": "node server.js",
+    "start":"node server.js"
   },
   "author": "ankan",
   "license": "ISC",
