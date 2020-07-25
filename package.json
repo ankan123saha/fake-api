@@ -6,7 +6,7 @@
   "scripts": {
     "json:server": "node server.js",
     "dev": "webpack-dev-server --mode development --open --hot",
-    "build": "cd src && ./node_modules/.bin/webpack --mode production",
+    "build": "cd src && npm run build",
     "install-client":"cd src && npm install",
     "heroku-postbuild":"npm run install-client && npm run build",
     "start":"node server.js"
