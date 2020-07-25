@@ -19,7 +19,7 @@ class Homepage extends React.Component {
     }
 
     componentDidMount() {
-        axios.get('http://localhost:3000/userData')
+        axios.get('https://ankans-json-server.herokuapp.com/userData')
             .then((response) => {
                 this.setState({ userList: response.data })
             })
