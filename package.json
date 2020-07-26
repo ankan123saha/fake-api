@@ -8,12 +8,13 @@
     "dev": "webpack-dev-server --mode development --open --hot",
     "build": "./node_modules/.bin/webpack --mode production",
     "install-client": "cd src && npm install",
-    "heroku-postbuild":"npm run install-client && npm run build",
-    "start":"node server.js"
+    "heroku-postbuild": "npm run install-client && npm run build",
+    "start": "node server.js"
   },
   "author": "ankan",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.17.1",
     "json-server": "^0.16.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
