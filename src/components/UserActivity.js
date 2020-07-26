@@ -6,7 +6,7 @@ import moment from 'moment'
 // import "react-datepicker/dist/react-datepicker.css";
 import { Button, Modal, ModalHeader, ModalBody, ModalFooter, Card, CardBody, CardTitle } from 'reactstrap';
 
-class Homepage extends React.Component {
+class UserActivity extends React.Component {
     constructor(props) {
         super(props)
         this.state = {
@@ -204,6 +204,4 @@ class Homepage extends React.Component {
 }
 
 
-
-
-export default Homepage;
+export default UserActivity;

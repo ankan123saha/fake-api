@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import UserActivity from './userActivity'
+import UserActivity from './UserActivity'
 
 class App extends Component{
     render(){
