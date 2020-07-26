@@ -19,7 +19,7 @@ class Homepage extends React.Component {
     }
 
     componentDidMount() {
-        axios.get('https://ankans-json-server.herokuapp.com/userData')
+        axios.get('https://user-activity-assignment-app.herokuapp.com/userData')
             .then((response) => {
                 this.setState({ userList: response.data })
             })
