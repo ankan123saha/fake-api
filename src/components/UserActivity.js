@@ -3,7 +3,6 @@ import ReactTable from 'react-table'
 import axios from 'axios';
 import Datetime from 'react-datetime';
 import moment from 'moment'
-// import "react-datepicker/dist/react-datepicker.css";
 import { Button, Modal, ModalHeader, ModalBody, ModalFooter, Card, CardBody, CardTitle } from 'reactstrap';
 
 class UserActivity extends React.Component {
@@ -19,7 +18,7 @@ class UserActivity extends React.Component {
     }
 
     componentDidMount() {
-        axios.get('https://user-activity-assignment-app.herokuapp.com/userData')
+        axios.get(`${window.location.origin}/userData`)
             .then((response) => {
                 this.setState({ userList: response.data })
             })
