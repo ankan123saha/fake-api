@@ -3,7 +3,7 @@ import ReactTable from 'react-table'
 import axios from 'axios';
 import Datetime from 'react-datetime';
 import moment from 'moment'
-import "react-datepicker/dist/react-datepicker.css";
+// import "react-datepicker/dist/react-datepicker.css";
 import { Button, Modal, ModalHeader, ModalBody, ModalFooter, Card, CardBody, CardTitle } from 'reactstrap';
 
 class Homepage extends React.Component {
