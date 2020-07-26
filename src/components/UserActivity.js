@@ -18,7 +18,7 @@ class UserActivity extends React.Component {
     }
 
     componentDidMount() {
-        axios.get(`${window.location.origin}/userData`)
+        axios.get('https://user-activity-assignment-app.herokuapp.com/userData')
             .then((response) => {
                 this.setState({ userList: response.data })
             })
